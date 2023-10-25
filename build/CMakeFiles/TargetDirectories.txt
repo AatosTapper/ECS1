@@ -1,0 +1,5 @@
+/Users/aatos/VSCode C++/ECS-test-1/build/CMakeFiles/edit_cache.dir
+/Users/aatos/VSCode C++/ECS-test-1/build/CMakeFiles/rebuild_cache.dir
+/Users/aatos/VSCode C++/ECS-test-1/build/src/CMakeFiles/main.dir
+/Users/aatos/VSCode C++/ECS-test-1/build/src/CMakeFiles/edit_cache.dir
+/Users/aatos/VSCode C++/ECS-test-1/build/src/CMakeFiles/rebuild_cache.dir
