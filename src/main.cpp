@@ -3,8 +3,6 @@
 
 #include "ECS/ECS.h"
 
-#define DEBUG
-
 int main()
 {
     struct C1
