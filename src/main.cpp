@@ -13,17 +13,14 @@ int main()
    
     ECS ecs;
     uint32_t e1 = ecs.new_entity();
-    uint32_t e2 = ecs.new_entity();
-    uint32_t e3 = ecs.new_entity();
  
-    C1* comp1 = new C1(1);
-    C1* comp2 = new C1(2);
-    C1* comp3 = new C1(3);
- 
-    ecs.add_component<C1>(e1, comp1);
-    ecs.add_component<C1>(e2, comp2);
-    ecs.add_component<C1>(e3, comp3);
- 
+    ecs.add_component<C1>(e1, new C1(1));
+
+    ecs.remove_entity(e1);
+
+    e1 = ecs.new_entity();
+
+    ecs.add_component<C1>(e1, new C1(1));
  
     auto components = ecs.get_all_components<C1>();
     for (auto c : components)

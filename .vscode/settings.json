@@ -56,6 +56,7 @@
         "memory": "cpp",
         "map": "cpp",
         "__tree": "cpp",
-        "typeindex": "cpp"
+        "typeindex": "cpp",
+        "iterator": "cpp"
     }
 }
